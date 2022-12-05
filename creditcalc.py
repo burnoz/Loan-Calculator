@@ -93,3 +93,5 @@ elif args.type == 'diff' and args.periods is not None and args.principal is not 
         print('Month {}: paid out {}'.format(i, diff_amount))
     overpayment = diff_total_amount - args.principal
     print('Overpayment = ', overpayment)
+
+# burnoz
